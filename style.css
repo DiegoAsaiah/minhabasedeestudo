@@ -1,38 +1,43 @@
 h1 {
-    text-align: center;
-    color: rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.videos {
+  text-align: center;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.canal {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(16, 24, 21);
+}
+
+.pp {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.setaesquerda {
+  text-align: center;
+}
+
+.paragrafo {
+  font-family: monospace;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    max-width: 100%;
+    height: auto;
   }
-  
-  .videos {
-    text-align: center;
-  }
-  @media (max-width: 768px) {
-    iframe {
-      max-width: 100%;
-      height: auto;
-    }
-  }
-  
-  
-  
-  .canal {
-    text-align: center;
-  }
-  
-  body {
-    background-color: rgb(16, 24, 21);
-  }
-  
-  .pp {
-    color: white;
-  }
-  
-  .setaesquerda {
-    text-align: center;
-  }
-  
-  .paragrafo {
-    font-size: 22px;
-    text-align: center;
-  }
-  
+}
