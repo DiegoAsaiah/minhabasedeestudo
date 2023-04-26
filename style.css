@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
+
 h1 {
   text-align: center;
   color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
 }
 
 .videos {
   text-align: center;
-}
+ }
 
 iframe {
   max-width: 100%;
@@ -16,15 +18,17 @@ iframe {
 
 .canal {
   text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699)
 }
 
 body {
-  background-color: #005C53;
+  background-image: linear-gradient(-95deg, #042420, #00554e);
 }
 
 .pp {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699)
 }
 
 .setaesquerda {
