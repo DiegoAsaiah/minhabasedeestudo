@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+*{max-width: 100%;}
 
 h1 {
   text-align: center;
@@ -11,10 +11,6 @@ h1 {
   text-align: center;
  }
 
-iframe {
-  max-width: 100%;
-  height: auto;
-}
 
 .canal {
   text-align: center;
@@ -40,6 +36,7 @@ body {
   font-size: 22px;
   text-align: center;
 }
+
 @media (max-width: 768px) {
   iframe {
     max-width: 100%;
