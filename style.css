@@ -40,7 +40,6 @@ body {
   font-size: 22px;
   text-align: center;
 }
-
 @media (max-width: 768px) {
   iframe {
     max-width: 100%;
