@@ -1,54 +1,46 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Base de Estudos</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-</head>
-<body>
-   <a href="#canais">Canais</a>
-    
-    <h1>CURSOS</h1>
-    
-    <div class="videos">
-        
-        <abbr title="curso completo de HTML E CSS"><a href="pagvideo.html" t><img style="border: 3px solid #DBF227;" src="ftprogramaçao.png"></a></abbr>
-        
-        <abbr title="top cursos gratis">
-            <a href="pagvideo2.html"><img style="border: 3px solid #DBF227;" width="335px" src="ftcurso.png">
-            </a></abbr>
-         <br>
-        <abbr title="curso completo de javascript">
-            <a href="pagvideo3.html"><img style="border: 3px
-            solid #DBF227" width="335px"src="ftjavascrpit.png">
-            </a>
-        </abbr>
-        <abbr title="curso completo de Python">
-            <a href="pagvideo4.html"><img style="border: 3px solid #DBF227" src="ftpt.png"></a>
-        </abbr>
-         <br> 
-        <abbr title="curso completo de REACT">
-            <a href="pagvideo5.html"><img style="border: 3px solid #DBF227" src="ftreact.png"></a>
-        </abbr>
-        <abbr title="curso completo de VUE3">
-            
-            <a href="pagvideo6.html"><img style="border: 0.2em solid #DBF227;" src="ftvue.png"></a>
-        </abbr>
-    </div>
-    
-    <br>
-    <div class="canais">
-        <div class="pp">
-            <p id="canais"><strong>CANAIS RESPONSAVEIS</strong></p>
-        </div>
-        <br>
-            <abbr title="Canal Curso em vídeo"><a target="_blank" href="https://www.youtube.com/@CursoemVideo"><img style="border: 3px solid  rgb(194, 181, 0);" src="logo.png"></a></abbr>
+@charset "UTF-8";
+*{max-width: 100%;}
 
-            <abbr title="Canal Matheus Battisti - Hora de Codar"><a href="https://www.youtube.com/@MatheusBattisti"><img style="border: .2em solid rgb(194, 181, 0);" src="logo2.png"></a></abbr>
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
+}
 
-    </div>
-</body>
-</html>
+.videos {
+  text-align: center;
+ }
+
+
+
+.canais {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699)
+}
+
+body {
+  background-image: linear-gradient(-95deg, #042420, #00554e);
+}
+
+.pp {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699)
+}
+
+.setaesquerda {
+  text-align: center;
+}
+
+.paragrafo {
+  font-family: monospace;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+}
