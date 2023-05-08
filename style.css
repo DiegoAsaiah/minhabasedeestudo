@@ -1,16 +1,73 @@
 @charset "UTF-8";
-*{max-width: 100%;}
+*{max-width: 100%;
+margin: 0px;
+padding:0% 0px
+}
 
-h1 {
+header {
+  padding: 10px 0px 10px 0px;
+  background-image: linear-gradient(to bottom, #2faaa0, #0a6b63);
   text-align: center;
   color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.62);
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.482);
+  }
+
+header a {
+  font-weight: bold;
+  font-style: oblique;
+  padding: 1px 10px 1px 10px;
+  font-size: 15px;
+  color: #cff8f5;
+  text-decoration: underline rgb(230, 227, 227);
+}
+
+header a:hover {
+  font-size: 1em;
+  color: #77eee4;
+  background-color: #284e4b;
+  padding: 0px 10px 0px 10px;
+  border-radius: 10px 10px 10px 10px;
+  transition-duration: 0.2s;
+}
+
+.cabecalho h1{
+  margin: auto;
+  max-width: 45%;
+  color: white;
+  text-align: center;
+  background-color: #0a6b63;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.62);
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.482);
 }
 
 .videos {
+  display: block;
   text-align: center;
- }
+  }
 
+.video {
+  width: 335px;
+  border: 3px solid #DBF227;
+}
+
+.video:hover {
+  width: 350px;
+  height: 191px;
+  border: 3px solid #f7ffb9;
+}
+
+.canal{
+  width: 180px;
+  border: 3px solid #DBF227;
+}
+
+.canal:hover {
+  width: 190px;
+  height: 190px;
+  border: 3px solid #f7ffb9;
+}
 
 
 .canais {
@@ -30,12 +87,33 @@ body {
 
 .setaesquerda {
   text-align: center;
+  border: 2px solid green; 
+  width: 40px;
+}
+
+.setaesquerda:hover {
+  border: 2px solid rgb(143, 255, 143); 
+  width: 41px;
 }
 
 .paragrafo {
   font-family: monospace;
   font-size: 22px;
   text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: #00554e;
+  padding: 0px 5px 0px 5px;
+  border-radius: 3px;
+}
+
+.paragrafo:hover {
+  font-size: 24px;
+  color: #d2fffb;
+}
+
+iframe {
+  border: 0.5em solid yellow;
 }
 
 @media (max-width: 768px) {
