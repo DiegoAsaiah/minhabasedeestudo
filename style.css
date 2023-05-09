@@ -1,7 +1,9 @@
 @charset "UTF-8";
-*{max-width: 100%;
-margin: 0px;
-padding:0% 0px
+
+*{
+  max-width: 100%;
+  margin: 0px;
+  padding:0% 0px
 }
 
 header {
@@ -116,9 +118,9 @@ iframe {
   border: 0.5em solid yellow;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   iframe {
-    max-width: 100%;
-    height: auto;
+    width: 350px;
+    height: 250px;
   }
 }
